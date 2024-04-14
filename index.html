@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal | Register</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/dist/main.css">
+    <script src="/src/main.js" defer></script>
+</head>
+
+<body>
+    <div class="index-wrapper">
+        <aside class="heading-link">
+            <div class="login-link">
+                <h1>Already a User?
+                    <a href="/dist/login.html">Sign In</a>
+                </h1>
+            </div>
+        </aside>
+        <main>
+            <div class="register-container">
+                <div class="register-form">
+                    <form action="" method="post" class="register-form-inner">
+                        <p class="form-heading">Name/Full Name</p>
+                        <input type="text" name="regFieldOne" id="inp1" placeholder="John Doe" class="input-text">
+                        <p class="form-heading">Enter Email</p>
+                        <input type="text" name="regFieldTwo" id="inp2" placeholder="example@gmail.com"
+                            class="input-text">
+                        <div class="bottom-wrapper">
+                            <p class="form-heading">Create a Password</p>
+                            <div class="password-row">
+                                <input type="password" name="regFieldThree" id="inp3" placeholder="********"
+                                    class="input-text" title="Password Cannot be Shorter than 8 Characters">
+                                <button class="btn" type="submit">
+                                    <a href="#">Submit</a>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
