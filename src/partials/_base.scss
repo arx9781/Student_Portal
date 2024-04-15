@@ -2,8 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
 }
 
 html {
@@ -25,6 +23,10 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: var(--dark-primary);
+
+  .window-0 {
+    display: none;
+  }
 
   ::selection {
     background: #ba04d6;
