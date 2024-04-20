@@ -1,3 +1,10 @@
-const resetView = document.getElementsByClassName("window-0");
+const scrollToTop = document.getElementById("scrollBtn");
 
-resetView = window.scrollTo(0, 0);
+function topFunction() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+}
+
+scrollToTop.addEventListener("click", topFunction);
