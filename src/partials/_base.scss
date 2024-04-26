@@ -30,5 +30,6 @@ body {
 
   ::selection {
     background: #ba04d6;
+    color: invert($color: #ba04d6);
   }
 }
