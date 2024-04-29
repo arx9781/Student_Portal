@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
@@ -135,7 +134,8 @@ main .register-container .register-form .login-form-inner .input-text {
   transition: all 0.2s ease;
   font-family: monospace;
 }
-main .register-container .register-form .register-form-inner .input-text:hover, main .register-container .register-form .register-form-inner .input-text:focus,
+main .register-container .register-form .register-form-inner .input-text:hover,
+main .register-container .register-form .register-form-inner .input-text:focus,
 main .register-container .register-form .login-form-inner .input-text:hover,
 main .register-container .register-form .login-form-inner .input-text:focus {
   box-shadow: 0px 0px 20px var(--boxshadow-light);
@@ -149,19 +149,46 @@ main .register-container .register-form .login-form-inner .bottom-wrapper {
   flex-direction: column;
   width: 100%;
 }
-main .register-container .register-form .register-form-inner .bottom-wrapper .password-row,
-main .register-container .register-form .login-form-inner .bottom-wrapper .password-row {
+main
+  .register-container
+  .register-form
+  .register-form-inner
+  .bottom-wrapper
+  .password-row,
+main
+  .register-container
+  .register-form
+  .login-form-inner
+  .bottom-wrapper
+  .password-row {
   display: flex;
   align-items: start;
   justify-content: space-between;
   flex-direction: row;
   width: 100%;
 }
-main .register-container .register-form .register-form-inner .bottom-wrapper .password-row #inp3,
-main .register-container .register-form .login-form-inner .bottom-wrapper .password-row #inp3 {
+main
+  .register-container
+  .register-form
+  .register-form-inner
+  .bottom-wrapper
+  .password-row
+  #inp3,
+main
+  .register-container
+  .register-form
+  .login-form-inner
+  .bottom-wrapper
+  .password-row
+  #inp3 {
   width: 70%;
 }
-main .register-container .register-form .register-form-inner .bottom-wrapper .btn,
+main
+  .register-container
+  .register-form
+  .register-form-inner
+  .bottom-wrapper
+  .btn,
 main .register-container .register-form .login-form-inner .bottom-wrapper .btn {
   width: 25%;
   padding: 0.9rem;
@@ -172,14 +199,36 @@ main .register-container .register-form .login-form-inner .bottom-wrapper .btn {
   transition: all 0.2s ease-in-out;
   cursor: pointer;
 }
-main .register-container .register-form .register-form-inner .bottom-wrapper .btn a,
-main .register-container .register-form .login-form-inner .bottom-wrapper .btn a {
+main
+  .register-container
+  .register-form
+  .register-form-inner
+  .bottom-wrapper
+  .btn
+  a,
+main
+  .register-container
+  .register-form
+  .login-form-inner
+  .bottom-wrapper
+  .btn
+  a {
   text-decoration: none;
   color: var(--text-color-alt);
   font-size: 1rem;
 }
-main .register-container .register-form .register-form-inner .bottom-wrapper .btn:hover,
-main .register-container .register-form .login-form-inner .bottom-wrapper .btn:hover {
+main
+  .register-container
+  .register-form
+  .register-form-inner
+  .bottom-wrapper
+  .btn:hover,
+main
+  .register-container
+  .register-form
+  .login-form-inner
+  .bottom-wrapper
+  .btn:hover {
   border-color: var(--text-color-main);
   transform: scale(0.9);
   box-shadow: 0px 0px 20px var(--boxshadow-light);
@@ -199,6 +248,24 @@ main .register-container .register-form .login-form-inner .bottom-wrapper .btn:h
   }
   body .index-wrapper .register-container .register-form {
     width: 90%;
+  }
+  main
+    .register-container
+    .register-form
+    .login-form-inner
+    .bottom-wrapper
+    .btn
+    a {
+    font-size: 0.8rem;
+  }
+  main
+    .register-container
+    .register-form
+    .register-form-inner
+    .bottom-wrapper
+    .btn
+    a {
+    font-size: 0.8rem;
   }
 }
 .dashboard-wrapper {
@@ -354,7 +421,12 @@ main .register-container .register-form .login-form-inner .bottom-wrapper .btn:h
   flex-direction: column;
   height: 100%;
 }
-.dashboard-wrapper .dash-main #student-info .form-one .dash-section-one-form input[type=date] {
+.dashboard-wrapper
+  .dash-main
+  #student-info
+  .form-one
+  .dash-section-one-form
+  input[type="date"] {
   background-color: var(--input-background);
   color: var(--text-color-main);
   padding: 10px;
@@ -363,15 +435,36 @@ main .register-container .register-form .login-form-inner .bottom-wrapper .btn:h
   outline: none;
   margin: 1rem 0;
 }
-.dashboard-wrapper .dash-main #student-info .form-one .dash-section-one-form input[type=date]:hover, .dashboard-wrapper .dash-main #student-info .form-one .dash-section-one-form input[type=date]:focus {
+.dashboard-wrapper
+  .dash-main
+  #student-info
+  .form-one
+  .dash-section-one-form
+  input[type="date"]:hover,
+.dashboard-wrapper
+  .dash-main
+  #student-info
+  .form-one
+  .dash-section-one-form
+  input[type="date"]:focus {
   box-shadow: 0px 0px 20px var(--boxshadow-light);
   border-color: var(--text-color-alt);
 }
-.dashboard-wrapper .dash-main #student-info .form-one .dash-section-one-form input[type=date]::-webkit-calendar-picker-indicator {
+.dashboard-wrapper
+  .dash-main
+  #student-info
+  .form-one
+  .dash-section-one-form
+  input[type="date"]::-webkit-calendar-picker-indicator {
   color: var(--text-color-alt);
   filter: invert(100%);
 }
-.dashboard-wrapper .dash-main #student-info .form-one .dash-section-one-form .dash-input {
+.dashboard-wrapper
+  .dash-main
+  #student-info
+  .form-one
+  .dash-section-one-form
+  .dash-input {
   width: 100%;
   background-color: var(--input-background);
   border: 2px solid var(--silver-accent);
@@ -384,16 +477,28 @@ main .register-container .register-form .login-form-inner .bottom-wrapper .btn:h
   font-family: monospace;
   margin: 1rem 0;
 }
-.dashboard-wrapper .dash-main #student-info .form-one .dash-section-one-form .dash-input:hover, .dashboard-wrapper .dash-main #student-info .form-one .dash-section-one-form .dash-input:focus {
+.dashboard-wrapper
+  .dash-main
+  #student-info
+  .form-one
+  .dash-section-one-form
+  .dash-input:hover,
+.dashboard-wrapper
+  .dash-main
+  #student-info
+  .form-one
+  .dash-section-one-form
+  .dash-input:focus {
   box-shadow: 0px 0px 20px var(--boxshadow-light);
   border-color: var(--text-color-alt);
 }
 .dashboard-wrapper .dash-main #course-section {
   width: 100%;
   height: 100%;
-  margin-top: 4rem;
-  padding-top: 1rem;
-  background-color: var(--dark-primary);
+  margin-top: 8rem;
+  background-color: var(--input-background);
+  border-radius: 5px;
+  padding: 1rem;
 }
 .dashboard-wrapper .dash-main #course-section .form-two {
   width: 100%;
@@ -414,27 +519,69 @@ main .register-container .register-form .login-form-inner .bottom-wrapper .btn:h
   height: 100%;
   margin-top: 1rem;
 }
-.dashboard-wrapper .dash-main #course-section .form-two .dash-section-two-form label {
+.dashboard-wrapper
+  .dash-main
+  #course-section
+  .form-two
+  .dash-section-two-form
+  label {
   font-size: 1.4rem;
 }
-.dashboard-wrapper .dash-main #course-section .form-two .dash-section-two-form #course-selection {
-  background-color: var(--input-background);
+.dashboard-wrapper
+  .dash-main
+  #course-section
+  .form-two
+  .dash-section-two-form
+  #course-selection {
+  background-color: var(--dark-primary);
   color: var(--text-color-main);
   font-size: 1.2rem;
   padding: 0.1rem;
   border-radius: 5px;
   margin-left: 0.4rem;
 }
-.dashboard-wrapper .dash-main #course-section .form-two .dash-section-two-form #course-selection optgroup {
-  color: var(--text-color-alt);
+.dashboard-wrapper
+  .dash-main
+  #course-section
+  .form-two
+  .dash-section-two-form
+  #course-selection
+  optgroup {
+  color: var(--silver-accent);
   padding-bottom: 2rem;
 }
-.dashboard-wrapper .dash-main #course-section .form-two .dash-section-two-form #course-selection optgroup option {
+.dashboard-wrapper
+  .dash-main
+  #course-section
+  .form-two
+  .dash-section-two-form
+  #course-selection
+  optgroup
+  option {
   margin: 0.3rem 0;
-  color: var(--text-color-main);
+  color: var(--text-color-alt);
 }
 .button {
   display: none;
+}
+
+#dsof-btn {
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  background: none;
+  outline: none;
+  border: 2px solid var(--silver-accent);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  color: var(--text-color-main);
+  margin-top: 1rem;
+}
+
+#dsof-btn:hover {
+  border-color: var(--text-color-main);
+  transform: scale(0.9);
+  box-shadow: 0px 0px 20px var(--boxshadow-light);
 }
 
 @media only screen and (max-width: 1200px) {
@@ -557,5 +704,40 @@ main .register-container .register-form .login-form-inner .bottom-wrapper .btn:h
     margin: 1rem;
     padding: 0;
     width: 90%;
+  }
+  .dashboard-wrapper .dash-main #student-info .form-one .dash-section-one-form {
+    width: 100%;
+  }
+
+  .dashboard-wrapper .dash-main #course-section {
+    margin-top: 0;
+  }
+
+  .dashboard-wrapper
+    .dash-main
+    #course-section
+    .form-two
+    .dash-section-two-form {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .dashboard-wrapper
+    .dash-main
+    #course-section
+    .form-two
+    .dash-section-two-form
+    label {
+    margin-top: 2rem;
+  }
+  .dashboard-wrapper
+    .dash-main
+    #course-section
+    .form-two
+    .dash-section-two-form
+    #course-selection {
+    margin-left: 0;
+    margin-top: 0.5rem;
   }
 }
