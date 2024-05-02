@@ -723,6 +723,9 @@ main
     justify-content: center;
     flex-direction: column;
   }
+  .dashboard-wrapper .dash-main #course-section .form-two {
+    padding: 0;
+  }
   .dashboard-wrapper
     .dash-main
     #course-section
